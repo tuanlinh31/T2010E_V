@@ -34,23 +34,25 @@ int main (){
 				c = 31*6 +28 +30*3 +a;
 			} else{
 				c = 31*6 +28 +30*4 +a;
-			} 
-			l = c % 7;
-			if(l=1){
-				printf("Thu 2");
-			}if(l=2){
-				printf("Thu 3");
-			}if(l=3){
-				printf("Thu 4");
-			}if(l=4){
-				printf("Thu 5");
-			}if(l=5){
-				printf("Thu 6");
-			}if(l=6){
-				printf("Thu 7");
-			}else {
-				printf("Chu Nhat");
 			}
+			l = c % 7;
+			if(l==1){
+				printf("thu 2");
+			}if(l==2){
+				printf("thu 3");
+			}if(l==3){
+				printf("thu 4");
+			}if(l==4){
+				printf("thu 5");
+			}if(l==5){
+				printf("thu 6");
+			}if(l==6){
+				printf("thu 7");
+			}else{
+				printf("chu nhat");
+			}
+
+			
 		}else{
 			printf("Thang khong ton tai");
 		}
@@ -58,4 +60,5 @@ int main (){
 	}else {
 		printf("Thang khong ton tai");
 	}
+
 }
