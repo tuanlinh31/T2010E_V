@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <math.h>
 int main() {
 	int n;
 	int sodu=0;
@@ -10,7 +10,7 @@ int main() {
 		printf("\n %d khong la so nguyen to",n);
 	}else{
 	
-	for(i=2;i<=9;i++) {
+	for(i=2;i<= sqrt(n);i++) {
 		if(n%i == 0) {
 			sodu++;
 		}
