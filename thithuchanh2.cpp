@@ -1,6 +1,6 @@
 #include <stdio.h>
 float avg (int s[],int n){
-	int tong = 0;
+	float tong = 0;
 	float tbc;
 	for (int i = 0; i<n;i++){
 		tong += s[i];
@@ -20,6 +20,6 @@ int main() {
 		printf("s[%d] = ",i);
 		scanf("%d",&s[i]);
 	}
-	float x = avg(s,5);
+	float x = avg(s,n);
 	printf("%f",x);
 }
