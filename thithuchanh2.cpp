@@ -20,7 +20,6 @@ int main() {
 		printf("s[%d] = ",i);
 		scanf("%d",&s[i]);
 	}
-	float x ;
-	x = avg(s[n],n);
+	float x = avg(s[1,2,3,4,5],5);
 	printf("%f",x);
 }
